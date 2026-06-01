@@ -155,60 +155,75 @@ function Index() {
         </div>
       </section>
 
-      {/* PROBLEMA & SOLUÇÃO */}
-      <section id="solucao" className="bg-muted/40 py-20 sm:py-24">
+      {/* GALERIA MARÍTIMA */}
+      <section id="galeria" className="bg-muted/40 py-20 sm:py-24">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
-          <div className="grid gap-8 lg:grid-cols-2">
-            <div className="rounded-2xl border border-border bg-card p-8 shadow-[var(--shadow-soft)]">
-              <p className="text-sm font-semibold uppercase tracking-wider text-destructive">
-                O problema
-              </p>
-              <h2 className="mt-2 text-2xl font-bold text-primary sm:text-3xl">
-                Processos descentralizados geram retrabalho
-              </h2>
-              <p className="mt-4 text-muted-foreground">
-                O processo de agendamento de visitas pode ocorrer de forma
-                descentralizada ou manual, o que pode gerar retrabalho, falhas
-                no controle das solicitações e baixa eficiência operacional.
-              </p>
-            </div>
-            <div className="rounded-2xl border border-accent/30 bg-card p-8 shadow-[var(--shadow-soft)]">
-              <p className="text-sm font-semibold uppercase tracking-wider text-accent">
-                A solução
-              </p>
-              <h2 className="mt-2 text-2xl font-bold text-primary sm:text-3xl">
-                Centralização inteligente em um único fluxo
-              </h2>
-              <p className="mt-4 text-muted-foreground">
-                O sistema centraliza as solicitações de visita em um formulário
-                online integrado a uma base de dados, permitindo melhor
-                organização, acompanhamento e análise das informações recebidas.
-              </p>
-            </div>
+          <div className="mx-auto max-w-2xl text-center">
+            <p className="text-sm font-semibold uppercase tracking-wider text-accent">
+              Nossas operações
+            </p>
+            <h2 className="mt-2 text-3xl font-bold text-primary sm:text-4xl">
+              Plataformas e navios navais
+            </h2>
+            <p className="mt-4 text-muted-foreground">
+              Conheça de perto a infraestrutura e a frota que sustentam as
+              operações marítimas e portuárias da Wilson Sons.
+            </p>
           </div>
 
-          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-            {[
-              { icon: Layers, title: "Centralização das solicitações" },
-              { icon: Repeat, title: "Redução de retrabalho" },
-              { icon: CalendarCheck, title: "Melhor controle dos agendamentos" },
-              { icon: Lock, title: "Mais segurança e organização" },
-            ].map(({ icon: Icon, title }, i) => (
-              <div
-                key={title}
-                className="rounded-xl border border-border bg-background p-5 text-center shadow-[var(--shadow-soft)]"
-              >
-                <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary text-primary-foreground">
-                  <Icon className="h-5 w-5" aria-hidden />
-                </div>
-                <p className="mt-3 text-xs font-semibold uppercase tracking-wider text-accent">
-                  0{i + 1}
-                </p>
-                <h3 className="mt-1 text-sm font-semibold text-primary">
-                  {title}
-                </h3>
-              </div>
-            ))}
+          <div className="mt-12 grid gap-5 sm:grid-cols-2">
+            <figure className="group overflow-hidden rounded-2xl border border-border bg-card shadow-[var(--shadow-soft)]">
+              <img
+                src={galleryPlatform}
+                alt="Plataforma offshore em operação no oceano"
+                className="h-64 w-full object-cover transition duration-500 group-hover:scale-105"
+                width={1024}
+                height={768}
+                loading="lazy"
+              />
+              <figcaption className="p-4 text-sm font-medium text-muted-foreground">
+                Plataforma offshore
+              </figcaption>
+            </figure>
+            <figure className="group overflow-hidden rounded-2xl border border-border bg-card shadow-[var(--shadow-soft)]">
+              <img
+                src={galleryShip}
+                alt="Navio cargueiro em terminal portuário"
+                className="h-64 w-full object-cover transition duration-500 group-hover:scale-105"
+                width={1024}
+                height={768}
+                loading="lazy"
+              />
+              <figcaption className="p-4 text-sm font-medium text-muted-foreground">
+                Navio cargueiro
+              </figcaption>
+            </figure>
+            <figure className="group overflow-hidden rounded-2xl border border-border bg-card shadow-[var(--shadow-soft)]">
+              <img
+                src={galleryTugboat}
+                alt="Rebocador auxiliando manobra portuária"
+                className="h-64 w-full object-cover transition duration-500 group-hover:scale-105"
+                width={1024}
+                height={768}
+                loading="lazy"
+              />
+              <figcaption className="p-4 text-sm font-medium text-muted-foreground">
+                Rebocador
+              </figcaption>
+            </figure>
+            <figure className="group overflow-hidden rounded-2xl border border-border bg-card shadow-[var(--shadow-soft)]">
+              <img
+                src={gallerySupply}
+                alt="Navio de suprimento próximo à plataforma"
+                className="h-64 w-full object-cover transition duration-500 group-hover:scale-105"
+                width={1024}
+                height={768}
+                loading="lazy"
+              />
+              <figcaption className="p-4 text-sm font-medium text-muted-foreground">
+                Navio de suprimento
+              </figcaption>
+            </figure>
           </div>
         </div>
       </section>
