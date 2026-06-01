@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Plataforma de visitas Wilson Sons" },
+      { name: "description", content: "Wilson Sons Visit Hub streamlines visit requests for students, professionals, and institutions." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Plataforma de visitas Wilson Sons" },
+      { property: "og:description", content: "Wilson Sons Visit Hub streamlines visit requests for students, professionals, and institutions." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Plataforma de visitas Wilson Sons" },
+      { name: "twitter:description", content: "Wilson Sons Visit Hub streamlines visit requests for students, professionals, and institutions." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0fdb816a-8862-4242-bf5c-1c377ee36799/id-preview-d2fddde8--c7127178-553c-4f9b-9bb0-abf7733a628a.lovable.app-1780345276920.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0fdb816a-8862-4242-bf5c-1c377ee36799/id-preview-d2fddde8--c7127178-553c-4f9b-9bb0-abf7733a628a.lovable.app-1780345276920.png" },
     ],
     links: [
       {
