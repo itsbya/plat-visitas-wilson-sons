@@ -56,7 +56,7 @@ function Index() {
           </a>
           <nav className="hidden gap-7 text-sm font-medium text-muted-foreground md:flex">
             <a href="#sobre" className="hover:text-primary">Sobre</a>
-            <a href="#solucao" className="hover:text-primary">Solução</a>
+            <a href="#galeria" className="hover:text-primary">Galeria</a>
             <a href="#seguranca" className="hover:text-primary">Segurança</a>
             <a href="#agendar" className="hover:text-primary">Agendar</a>
           </nav>
