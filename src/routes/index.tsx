@@ -49,7 +49,7 @@ function Index() {
             <img
               src={logo}
               alt="Wilson Sons"
-              className="h-9 w-auto sm:h-10"
+              className="h-12 w-auto sm:h-14"
               width={1536}
               height={1024}
             />
