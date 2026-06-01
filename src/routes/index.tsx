@@ -304,26 +304,15 @@ function Index() {
             </p>
           </div>
 
-          <div className="mt-12 grid gap-8 lg:grid-cols-2">
-            <div>
-              <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-primary">
-                Formulário rápido
-              </h3>
-              <VisitForm />
-            </div>
-            <div>
-              <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-primary">
-                Formulário oficial (Google Forms)
-              </h3>
-              <div className="overflow-hidden rounded-2xl border border-border bg-card shadow-[var(--shadow-soft)]">
-                <iframe
-                  src="https://docs.google.com/forms/d/e/1FAIpQLSe69iu5-oAbfS871oydbkvb9qyMgOj4qkXzl9dBDQDYZQWgnQ/viewform?embedded=true"
-                  className="h-[1423px] w-full"
-                  title="Formulário de agendamento Wilson Sons"
-                >
-                  Carregando…
-                </iframe>
-              </div>
+          <div className="mt-12 mx-auto max-w-3xl">
+            <div className="overflow-hidden rounded-2xl border border-border bg-card shadow-[var(--shadow-soft)]">
+              <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSe69iu5-oAbfS871oydbkvb9qyMgOj4qkXzl9dBDQDYZQWgnQ/viewform?embedded=true"
+                className="h-[1423px] w-full"
+                title="Formulário de agendamento Wilson Sons"
+              >
+                Carregando…
+              </iframe>
             </div>
           </div>
         </div>
