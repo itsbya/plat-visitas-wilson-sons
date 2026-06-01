@@ -9,15 +9,15 @@ import {
   ClipboardCheck,
   Clock,
   FileCheck2,
-  Layers,
-  Repeat,
   CalendarCheck,
-  Lock,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { VisitForm } from "@/components/VisitForm";
 import heroImg from "@/assets/hero-port.jpg";
 import logo from "@/assets/wilson-sons-logo.png";
+import galleryPlatform from "@/assets/gallery-platform.jpg";
+import galleryShip from "@/assets/gallery-ship.jpg";
+import galleryTugboat from "@/assets/gallery-tugboat.jpg";
+import gallerySupply from "@/assets/gallery-supply.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
